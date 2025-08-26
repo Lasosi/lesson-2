@@ -1,0 +1,36 @@
+body{
+    font-family: rubik, helvetica, arial, sans-serif;
+    font-size: 14px;
+}
+a{
+    color: rgb(0, 84, 168);
+}
+/* Стилі для таблиці */
+.table-history {
+  border-collapse: collapse;
+  width: 75%;
+}
+.table-history td,
+.table-history th {
+  border: 1px solid gray;
+  padding: 6px;
+  
+}
+.table-history td {
+    background-color: white;
+}
+.table-history th{
+    background-color: lightgrey;
+    color: rgb(0, 84, 168);
+}
+.main-article {
+  width: 60%;
+  background-color: rgb(221, 221, 221);
+  margin: auto;
+  padding: 15px;
+}
+.picture{
+    float: right;
+    width: 20%;
+}
+
