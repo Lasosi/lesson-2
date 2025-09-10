@@ -1,9 +1,36 @@
-body{
-    font-family: rubik, helvetica, arial, sans-serif;
-    font-size: 14px;
+* {
+  box-sizing: border-box;
 }
-a{
-    color: rgb(0, 84, 168);
+.main-article{
+  max-width: 1920px;
+  min-width: 720px;
+  width: 45%;
+  line-height: 1.75;
+}
+body {
+  font-family: rubik, helvetica, arial, sans-serif;
+  font-size: 14px;
+}
+a {
+  color: rgb(0, 84, 168);
+}
+.w40 {
+  width: 40%;
+}
+.float-right {
+  float: right;
+}
+.info-icon{
+  background-color: lightgrey;
+  color: white;
+  font-size: 2.5em;
+  font-family: serif;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 15px;
 }
 /* Стилі для таблиці */
 .table-history {
@@ -14,14 +41,13 @@ a{
 .table-history th {
   border: 1px solid gray;
   padding: 6px;
-  
 }
 .table-history td {
-    background-color: white;
+  background-color: white;
 }
-.table-history th{
-    background-color: lightgrey;
-    color: rgb(0, 84, 168);
+.table-history th {
+  background-color: lightgrey;
+  color: rgb(0, 84, 168);
 }
 .main-article {
   width: 60%;
@@ -29,8 +55,38 @@ a{
   margin: auto;
   padding: 15px;
 }
-.picture{
-    float: right;
-    width: 20%;
+.info {
+  width: 85%;
+  background-color: aqua;
+  margin: auto;
+  padding-left: 15px;
+  border-width: 1px;
+  border-left-color: rgb(218, 180, 180);
+  border-left-width: 5px;
+  border-style: solid;
 }
-
+.picture {
+  float: right;
+  width: 20%;
+}
+.nav-menu{
+  width: 120px;
+  border: 1px solid rgb(187, 194, 198)
+}
+.nav-list{
+  padding-left: 23px;
+}
+.title-menu{
+  background-color: lightgray;
+  margin: 0;
+  padding: 5px 15px;
+  border-bottom: 1px solid gray;
+}
+code{
+  border: 2px solid lightgray;
+  background-color: white;
+  padding: 0px 5px;
+}
+.video{
+  display: block;
+}
