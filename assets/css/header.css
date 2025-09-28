@@ -1,29 +1,59 @@
 .main-header {
-    background-color: aqua;
-    height: 200px;
-    padding-top: 100px;
-    background-image: url(./../images/Light_background_snowy_grass.png), linear-gradient(0deg,rgba(23, 252, 233, 1) 0%, rgba(21, 0, 255, 1) 100%);
-    background-position: 0 120px, 0 0;
-    background-repeat: repeat-x, no-repeat;
+  background-color: aqua;
+  height: 200px;
+  padding-top: 100px;
+  background-image: url(./../images/Light_background_snowy_grass.png),
+    linear-gradient(0deg, rgba(23, 252, 233, 1) 0%, rgba(21, 0, 255, 1) 100%);
+  background-position: 0 120px, 0 0;
+  background-repeat: repeat-x, no-repeat;
 }
 .main-wrapper {
-    width: 6    0%;
-    margin: auto;
-    min-width: 720px;
+  width: 6 0%;
+  margin: auto;
+  min-width: 720px;
 }
-main{
-        margin-top: -100px;
-
+main {
+  margin-top: -100px;
 }
 .head-menu {
   list-style: none;
+  text-align: center;
 }
 .head-menu-item {
   display: inline-block;
   margin: 0 1.2em;
+  
+  position: relative;
 }
 .head-menu-item > a {
   color: black;
   text-transform: uppercase;
   font-weight: bolder;
+
+}
+.submenu{
+  list-style: none;
+  padding: 10px;
+  background-color: white;
+  display: none;
+  position: absolute;
+ top: 1.5em;
+}
+.head-menu-item:hover>.submenu{
+display: block;
+width: 230%;
+  left: -45px;
+}
+.submenu-item{
+   position: relative;
+
+}
+.submenu-link{
+display: block;
+padding: 5px 9px;
+text-transform: capitalize;
+}
+.submenu-link:hover{
+  background-color:bisque;
+  color: blue;
 }
