@@ -2,10 +2,10 @@
   background-color: aqua;
   height: 200px;
   padding-top: 100px;
-  background-image: url(./../images/Light_background_snowy_grass.png),
+  background-image: url(./../images/Dirt-transition.png), url(./../images/Light_background_snowy_grass.png), 
     linear-gradient(0deg, rgba(23, 252, 233, 1) 0%, rgba(21, 0, 255, 1) 100%);
-  background-position: 0 120px, 0 0;
-  background-repeat: repeat-x, no-repeat;
+  background-position: bottom left, 0 120px, 0 0;
+  background-repeat: repeat-x, repeat-x, no-repeat;
 }
 .main-wrapper {
   width: 6 0%;
@@ -22,38 +22,58 @@ main {
 .head-menu-item {
   display: inline-block;
   margin: 0 1.2em;
-  
+
   position: relative;
 }
 .head-menu-item > a {
   color: black;
   text-transform: uppercase;
   font-weight: bolder;
-
 }
-.submenu{
+.submenu {
   list-style: none;
   padding: 10px;
   background-color: white;
   display: none;
   position: absolute;
- top: 1.5em;
+  width: 230%;
+  min-width: 150px;
+  max-width: 200px;
+  left: -50%;
 }
-.head-menu-item:hover>.submenu{
-display: block;
-width: 230%;
-  left: -45px;
+.head-menu-item:hover > .submenu {
+  display: block;
 }
-.submenu-item{
-   position: relative;
-
+.submenu-item {
+  position: relative;
 }
-.submenu-link{
-display: block;
-padding: 5px 9px;
-text-transform: capitalize;
+.submenu-link {
+  display: block;
+  padding: 5px 9px;
+  text-transform: capitalize;
 }
-.submenu-link:hover{
+.submenu-link:hover {
+  background-color: bisque;
+  color: blue;
+}
+.left0 {
+  left: 0;
+}
+.left45{
+  left: -40px;
+}
+.left50{
+  left: -50px;
+}
+.submenu-item:hover > .submenu{
+  display: block;
+  padding: 5px 9px;
+color: black;
+  text-transform: capitalize;
+  left: 150px;
+  top: 0px;
+}
+.submenu-item:hover>.submenu-link, .submenu-link:hover{
   background-color:bisque;
   color: blue;
 }
