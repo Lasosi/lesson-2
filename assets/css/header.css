@@ -20,6 +20,13 @@ main {
   text-align: center;
   margin-top: -30px;
 }
+.head-menu a{
+  text-decoration: none;
+  color: inherit;
+}
+.head-menu li.head-menu-item:hover > a{
+  text-decoration: underline;
+}
 .head-menu-item {
   display: inline-block;
   margin: 0 1.2em;
@@ -55,7 +62,7 @@ main {
 }
 .submenu-link:hover {
   background-color: bisque;
-  color: blue;
+  color: rgb(0, 84, 168);
 }
 .left0 {
   left: 0;
@@ -71,10 +78,11 @@ main {
   padding: 5px 9px;
 color: black;
   text-transform: capitalize;
-  left: 150px;
-  top: 0px;
+  left: 100%;
+  top: -5px;
 }
 .submenu-item:hover>.submenu-link, .submenu-link:hover{
   background-color:bisque;
-  color: blue;
+  color: rgb(0, 84, 168);
 }
+
