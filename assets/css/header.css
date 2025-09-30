@@ -18,6 +18,7 @@ main {
 .head-menu {
   list-style: none;
   text-align: center;
+  margin-top: -30px;
 }
 .head-menu-item {
   display: inline-block;

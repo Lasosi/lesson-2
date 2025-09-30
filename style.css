@@ -92,3 +92,6 @@ code{
 .video{
   display: block;
 }
+figure img{
+  width: 100%;
+}
